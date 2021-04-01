@@ -50,6 +50,7 @@ h3 {
   padding: 30px;
   color: #ffffff;
   display: inline-block;
+  user-select: none;
 }
 i.plus,
 i.minus {
@@ -93,6 +94,7 @@ a {
   display: inline-block;
   width: 30%;
   margin-left: 10px;
+  transition: 0.5s;
 }
 .card i {
   display: block;
@@ -101,6 +103,9 @@ a {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   margin-top: 12px;
+}
+.card:hover{
+    transform: translateY(-20px);
 }
 @media screen and (max-width: 410px) {
     div.card{
